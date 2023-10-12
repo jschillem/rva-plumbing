@@ -4,6 +4,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Stephen’s Plumbing and Gas LLC" />
 	<meta property="og:image" content="https://www.rva.plumbing/favicon.ico" />
+	<title>Stephen’s Plumbing and Gas LLC</title>
 	<meta
 		property="og:description"
 		content="Licensed and Insured Commercial and Residential Plumbing and Gas Repair Service"
