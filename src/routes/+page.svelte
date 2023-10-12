@@ -1,4 +1,4 @@
-<head>
+<svelte:head>
 	<meta property="og:title" content="Stephen’s Plumbing and Gas LLC" />
 	<meta property="og:url" content="https://www.rva.plumbing/" />
 	<meta property="og:type" content="website" />
@@ -8,7 +8,7 @@
 		property="og:description"
 		content="Licensed and Insured Commercial and Residential Plumbing and Gas Repair Service"
 	/>
-</head>
+</svelte:head>
 
 <div class="flex items-center flex-col gap-3">
 	<h1 class="text-slate-800 text-6xl font-bold">Stephen’s Plumbing and Gas LLC</h1>
