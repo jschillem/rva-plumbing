@@ -16,7 +16,7 @@
 	<h2 class="text-center text-2xl font-semibold text-slate-800">Guaranteed Craftsmanship!</h2>
 	<h3 class="text-xl">(804) 914-7711</h3>
 	<a
-		class="font-semibold text-slate-100 bg-slate-800 hover:bg-slate-500 hover:scale-110 px-5 py-3 m-4 ease-in-out duration-100"
+		class="font-semibold text-slate-100 bg-slate-800 hover:bg-slate-500 hover:scale-110 focus:bg-slate-500 focus:scale-110 px-5 py-3 m-4 ease-in-out duration-100"
 		href="https://clienthub.getjobber.com/client_hubs/fa3753d4-3d51-4b95-8903-254401797d6e/public/work_request/new"
 		>Book an Appointment Now</a
 	>
