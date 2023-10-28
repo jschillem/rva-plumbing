@@ -2,4 +2,4 @@
 	import '../app.postcss';
 </script>
 
-<div class="font-[Poppins]"><slot /></div>
+<div class="font-sans"><slot /></div>
