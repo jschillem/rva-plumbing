@@ -50,7 +50,7 @@
       <li>After Business Hours: $240.00 per hour (including travel time)</li>
     </ul>
   </main>
-  <footer class="max-w-2xl mt-28 text-center font-semibold text-2xl">
+  <footer class="max-w-2xl mx-6 mt-28 text-center font-semibold text-2xl">
     <p>
       We look forward to gaining your business. Submit a request or call us today to setup your
       appointment. We're here for you 24/7!
