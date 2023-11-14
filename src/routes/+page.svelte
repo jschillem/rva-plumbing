@@ -1,23 +1,69 @@
+<script lang="ts">
+  import Carousel from '$lib/Carousel.svelte';
+  import Button from '$lib/components/ui/button/button.svelte';
+
+  let images = [
+    { title: 'Van', src: 'images/van.jpg' },
+    { title: 'Drain Cleaning', src: 'images/working_on_sink.jpg' },
+    { title: 'Sink', src: 'images/sink.jpg' },
+    { title: 'Wall', src: 'images/wall.jpg' },
+  ];
+</script>
+
 <svelte:head>
-	<meta property="og:title" content="Stephen’s Plumbing and Gas LLC" />
-	<meta property="og:url" content="https://www.rva.plumbing/" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Stephen’s Plumbing and Gas LLC" />
-	<meta property="og:image" content="https://www.rva.plumbing/favicon.ico" />
-	<title>Stephen’s Plumbing and Gas LLC</title>
-	<meta
-		property="og:description"
-		content="Licensed and Insured Commercial and Residential Plumbing and Gas Repair Service"
-	/>
+  <title>Stephen's Plumbing & Gas LLv</title>
 </svelte:head>
 
-<div class="flex items-center flex-col gap-3">
-	<h1 class="text-center text-slate-800 text-6xl font-bold">Stephen’s Plumbing and Gas LLC</h1>
-	<h2 class="text-center text-2xl font-semibold text-slate-800">Guaranteed Craftsmanship!</h2>
-	<h3 class="text-xl">(804) 914-7711</h3>
-	<a
-		class="font-semibold text-slate-100 bg-slate-800 hover:bg-slate-500 hover:scale-110 focus:bg-slate-500 focus:scale-110 px-5 py-3 m-4 ease-in-out duration-100"
-		href="https://clienthub.getjobber.com/client_hubs/fa3753d4-3d51-4b95-8903-254401797d6e/public/work_request/new"
-		>Book an Appointment Now</a
-	>
+<div class="flex flex-col justify-center w-full items-center">
+  <Carousel {images} />
+  <main class="max-w-4xl mx-6">
+    <h2 class="font-semibold text-xl my-5 text-center underline">
+      Licensed and Insured Commercial and <br /> Residential Plumbing and Gas Repair Service
+    </h2>
+    <div class="grid leading-7">
+      <ul class="list-disc">
+        <li>Drain Cleaning</li>
+        <li>Hydro-Jetting</li>
+        <li>Sewer Inspection and Location</li>
+        <li>Sewer and Water Pipe Repair, Replacement, and Installation</li>
+        <li>Water Heater Repair, Replacement, and Installation</li>
+        <li>Fixture Repair, Replacement, and Installation (Anything from Faucets to Bidets)</li>
+        <li>Gas Piping and Appliance Installation</li>
+      </ul>
+      <span class="text-right font-semibold">..And More!</span>
+    </div>
+    <h3 class="font-semibold text-xl underline text-center mt-16">
+      Why choose us instead of the big names?
+    </h3>
+    <p class="text-center leading-7 mt-4">
+      We are a fully licensed and insured family business that strives to maintain longstanding
+      relationships with our customers. Our focus is providing the highest quality of work at a
+      competitive price. Other companies may try to trap customers with marketing tricks showing
+      untruthful prices, without disclosing their swindling fees such as trip charges, dispatch
+      fees, and much more. When you call us, you can be certain there are no gimmicks. Most of the
+      time, a master plumber and gasfitter licensed by The State of Virginia Board of Contractors
+      will be completing your work.
+    </p>
+    <h3 class="font-semibold text-xl underline text-center mt-16">What is your hourly cost?</h3>
+    <ul class="text-center">
+      <li class="my-2">Regular Business Hours: $160.00 per hour (including travel time)</li>
+      <li>After Business Hours: $240.00 per hour (including travel time)</li>
+    </ul>
+  </main>
+  <footer class="max-w-2xl mt-28 text-center font-semibold text-2xl">
+    <p>
+      We look forward to gaining your business. Submit a request or call us today to setup your
+      appointment. We're here for you 24/7!
+    </p>
+    <p class="text-center font-semibold text-2xl mt-4">
+      Call Us! <a
+        class="underline underline-offset-4 text-center focus:text-blue-800 hover:text-blue-800"
+        href="tel:8049147711">(804)914-7711</a>
+    </p>
+    <Button
+      href="https://clienthub.getjobber.com/client_hubs/fa3753d4-3d51-4b95-8903-254401797d6e/public/work_request/new"
+      size="lg"
+      class="my-10 scale-150 hover:scale-[1.6] text-sm bg-zinc-950 hover:bg-zinc-800 focus:bg-zinc-800"
+      >Schedule Your Appointment</Button>
+  </footer>
 </div>
