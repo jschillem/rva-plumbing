@@ -52,7 +52,7 @@
   </main>
   <footer
     class="w-full flex items-center justify-center py-10 bg-zinc-300 mx-6 mt-28 text-center font-semibold text-2xl">
-    <div class="max-w-xl">
+    <div class="max-w-xl px-6">
       <p class="text-center">
         We look forward to gaining your business. Submit a request or call us today to setup your
         appointment. We're here for you 24/7!
