@@ -39,7 +39,7 @@
 <!--   </defs> -->
 <!--   <rect fill="url(#0)" height="100%" width="100%" /> -->
 <!-- </svg> -->
-<ul class="flex overflow-x-auto gap-6 snap-x snap-mandatory">
+<ul class="flex overflow-x-auto gap-2 snap-x snap-mandatory">
   {#each images as { title, src }}
     <li class="shrink-0 w-fit snap-center">
       <img {src} {title} alt={title} />

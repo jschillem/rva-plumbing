@@ -50,20 +50,24 @@
       <li>After Business Hours: $240.00 per hour (including travel time)</li>
     </ul>
   </main>
-  <footer class="max-w-2xl mx-6 mt-28 text-center font-semibold text-2xl">
-    <p>
-      We look forward to gaining your business. Submit a request or call us today to setup your
-      appointment. We're here for you 24/7!
-    </p>
-    <p class="text-center font-semibold text-2xl mt-4">
-      Call Us! <a
-        class="underline underline-offset-4 text-center focus:text-blue-800 hover:text-blue-800"
-        href="tel:8049147711">(804)914-7711</a>
-    </p>
-    <Button
-      href="https://clienthub.getjobber.com/client_hubs/fa3753d4-3d51-4b95-8903-254401797d6e/public/work_request/new"
-      size="lg"
-      class="my-10 scale-[1.2] hover:scale-[1.3] text-sm bg-zinc-950 hover:bg-zinc-800 focus:bg-zinc-800"
-      >Schedule Your Appointment</Button>
+  <footer
+    class="w-full flex items-center justify-center py-10 bg-zinc-300 mx-6 mt-28 text-center font-semibold text-2xl">
+    <div class="max-w-xl">
+      <p class="text-center">
+        We look forward to gaining your business. Submit a request or call us today to setup your
+        appointment. We're here for you 24/7!
+      </p>
+      <p class="text-center font-semibold text-2xl mt-4">
+        Call Us! <a
+          class="underline underline-offset-4 text-center focus:text-blue-800 hover:text-blue-800"
+          href="tel:8049147711">(804)914-7711</a>
+      </p>
+      <Button
+        href="https://clienthub.getjobber.com/client_hubs/fa3753d4-3d51-4b95-8903-254401797d6e/public/work_request/new"
+        size="lg"
+        class="mt-10 scale-[1.2] hover:scale-[1.3] bg-zinc-950 hover:bg-zinc-800 focus:bg-zinc-800">
+        Schedule Your Appointment
+      </Button>
+    </div>
   </footer>
 </div>
