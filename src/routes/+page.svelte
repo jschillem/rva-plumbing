@@ -21,7 +21,7 @@
       Licensed and Insured Commercial and <br /> Residential Plumbing and Gas Repair Service
     </h2>
     <div class="grid leading-7">
-      <ul class="list-disc">
+      <ul class="list-inside list-disc">
         <li>Drain Cleaning</li>
         <li>Hydro-Jetting</li>
         <li>Sewer Inspection and Location</li>
