@@ -63,7 +63,7 @@
     <Button
       href="https://clienthub.getjobber.com/client_hubs/fa3753d4-3d51-4b95-8903-254401797d6e/public/work_request/new"
       size="lg"
-      class="my-10 scale-150 hover:scale-[1.6] text-sm bg-zinc-950 hover:bg-zinc-800 focus:bg-zinc-800"
+      class="my-10 scale-[1.2] hover:scale-[1.3] text-sm bg-zinc-950 hover:bg-zinc-800 focus:bg-zinc-800"
       >Schedule Your Appointment</Button>
   </footer>
 </div>
