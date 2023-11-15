@@ -3,10 +3,10 @@
   import Button from '$lib/components/ui/button/button.svelte';
 
   let images = [
-    { title: 'Van', src: 'images/van.jpg' },
-    { title: 'Drain Cleaning', src: 'images/working_on_sink.jpg' },
-    { title: 'Sink', src: 'images/sink.jpg' },
-    { title: 'Wall', src: 'images/wall.jpg' },
+    { title: 'Our work van', src: 'images/van.jpg' },
+    { title: 'Unclogging a drain', src: 'images/working_on_sink.jpg' },
+    { title: 'Beautiful sink installation', src: 'images/sink.jpg' },
+    { title: 'Example of high quality plumbing within the walls', src: 'images/wall.jpg' },
   ];
 </script>
 
