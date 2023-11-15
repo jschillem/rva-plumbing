@@ -5,7 +5,7 @@ import { enhancedImages } from '@sveltejs/enhanced-img';
 export default defineConfig({
   server: {
     fs: {
-      allow: ['./fonts'],
+      allow: ['/fonts'],
     },
   },
   plugins: [sveltekit()],
