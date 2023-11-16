@@ -17,7 +17,9 @@
   <meta property="og:url" content="https://rva.plumbing" />
   <meta
     property="og:description"
-    content="Licensed and Insured Commercial and Residential Plumbing and Gas Repair Service\nGuaranteed Craftsmanship!" />
+    content={`Licensed and Insured Commercial and Residential Plumbing and Gas Repair Service
+
+Guaranteed Craftsmanship!`}/>
   <meta property="og:locale" content="en_US" />
   <meta property="og:locale" content={logo} />
 </svelte:head>
