@@ -21,7 +21,7 @@
 
 Guaranteed Craftsmanship!`}/>
   <meta property="og:locale" content="en_US" />
-  <meta property="og:locale" content={logo} />
+  <meta property="og:image" content={logo} />
 </svelte:head>
 
 <div class="flex flex-col justify-center w-full items-center">
