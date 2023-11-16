@@ -1,6 +1,7 @@
 <script lang="ts">
   import Carousel from '$lib/Carousel.svelte';
   import Button from '$lib/components/ui/button/button.svelte';
+  import logo from '$lib/assets/logo.webp';
 
   let images = [
     { title: 'Our work van', src: 'images/van.jpg' },
@@ -11,7 +12,14 @@
 </script>
 
 <svelte:head>
-  <title>Stephen's Plumbing & Gas LLv</title>
+  <title>Stephen's Plumbing & Gas LLC</title>
+  <meta property="og:title" content="Stephen's Plumbing & Gas LLC" />
+  <meta property="og:url" content="https://rva.plumbing" />
+  <meta
+    property="og:description"
+    content="Licensed and Insured Commercial and Residential Plumbing and Gas Repair Service\nGuaranteed Craftsmanship!" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale" content={logo} />
 </svelte:head>
 
 <div class="flex flex-col justify-center w-full items-center">
