@@ -1,7 +1,12 @@
 <script lang="ts">
-  import Carousel from '$lib/Carousel.svelte';
+  import MyCarousel from '$lib/MyCarousel.svelte';
   import Button from '$lib/components/ui/button/button.svelte';
   import logo from '$lib/assets/logo.webp';
+  import { browser } from '$app/environment';
+  import Carousel from 'svelte-carousel';
+  import Device from 'svelte-device-info';
+
+  let carousel;
 
   let images = [
     { title: 'Our work van', src: 'images/van.jpg' },
@@ -19,13 +24,28 @@
     property="og:description"
     content={`Licensed and Insured Commercial and Residential Plumbing and Gas Repair Service
 
-Guaranteed Craftsmanship!`}/>
+Guaranteed Craftsmanship!`} />
   <meta property="og:locale" content="en_US" />
   <meta property="og:image" content={logo} />
 </svelte:head>
 
 <div class="flex flex-col justify-center w-full items-center">
-  <Carousel {images} />
+  {#if browser}
+    <div class="w-screen">
+      <Carousel
+        bind:this={carousel}
+        autoplay
+        autoplayProgressVisible
+        particlesToShow={Device.isPhone ? 1 : Device.isTablet ? 2 : 3}
+        pauseOnFocus>
+        {#each images as { title, src }}
+          <img {src} {title} alt={title} />
+        {/each}
+      </Carousel>
+    </div>
+  {:else}
+    <MyCarousel {images} />
+  {/if}
   <main class="max-w-4xl mx-6">
     <h2 class="font-semibold text-xl my-5 text-center underline">
       Licensed and Insured Commercial and <br /> Residential Plumbing and Gas Repair Service
@@ -61,7 +81,7 @@ Guaranteed Craftsmanship!`}/>
     </ul>
   </main>
   <footer
-    class="w-full flex items-center justify-center py-10 bg-zinc-300 mx-6 mt-28 text-center font-semibold text-2xl">
+    class="w-screen flex items-center justify-center py-10 bg-zinc-300 mx-6 mt-28 text-center font-semibold text-2xl">
     <div class="max-w-xl px-6">
       <p class="text-center">
         We look forward to gaining your business. Submit a request or call us today to setup your
