@@ -31,7 +31,7 @@ Guaranteed Craftsmanship!`} />
 
 <div class="flex flex-col justify-center w-full items-center">
   {#if browser}
-    <div class="w-screen">
+    <div class={`${Device.isMobile || Device.isTablet ? '' : 'px-6'} w-screen`}>
       <Carousel
         bind:this={carousel}
         autoplay
