@@ -70,7 +70,7 @@ Guaranteed Craftsmanship!`} />
       We are a fully licensed and insured family business that strives to maintain longstanding
       relationships with our customers. Our focus is providing the highest quality of work at a
       competitive price. Other companies may try to trap customers with marketing tricks showing
-      untruthful prices, without disclosing their swindling fees such as trip charges, dispatch
+      untruthful prices, without disclosing their swindling fees such as shady contracts, dispatch
       fees, and much more. When you call us, you can be certain there are no gimmicks. Most of the
       time, a master plumber and gasfitter licensed by The State of Virginia Board of Contractors
       will be completing your work.
