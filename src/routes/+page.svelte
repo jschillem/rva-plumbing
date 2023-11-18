@@ -13,6 +13,7 @@
     { title: 'Unclogging a drain', src: 'images/working_on_sink.jpg' },
     { title: 'Beautiful sink installation', src: 'images/sink.jpg' },
     { title: 'Example of high quality plumbing within the walls', src: 'images/wall.jpg' },
+    { title: 'Free standing tub and faucet installation', src: 'images/tub.jpg' },
   ];
 </script>
 
