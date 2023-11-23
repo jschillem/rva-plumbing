@@ -77,15 +77,15 @@ Guaranteed Craftsmanship!`} />
     </p>
     <h3 class="font-semibold text-xl underline text-center mt-16">What is your hourly cost?</h3>
     <ul class="text-center">
-      <li class="my-2">Regular Business Hours: $160.00 per hour (including travel time)</li>
-      <li>After Business Hours: $240.00 per hour (including travel time)</li>
+      <li class="my-2">Regular Business Hours: $160 per hour (including travel time)</li>
+      <li>After Business Hours: $240 per hour (including travel time)</li>
     </ul>
   </main>
   <footer
     class="w-screen flex items-center justify-center py-10 bg-zinc-300 mx-6 mt-28 text-center font-semibold text-2xl">
     <div class="max-w-xl px-6">
       <p class="text-center">
-        We look forward to gaining your business. Submit a request or call us today to setup your
+        We look forward to gaining your business. Submit a request or call us today to set up your
         appointment. We're here for you 24/7!
       </p>
       <p class="text-center font-semibold text-2xl mt-4">

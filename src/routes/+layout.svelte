@@ -18,7 +18,7 @@
     <a
       href="tel:8049147711"
       class="text-zinc-950 underline underline-offset-4 text-center focus:text-blue-800 hover:text-blue-800"
-      >(804)-914-7711</a>
+      >(804)914-7711</a>
   </div>
   <div class="flex w-full items-center justify-center lg:justify-end">
     <Button
