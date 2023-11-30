@@ -11,9 +11,11 @@
   let images = [
     { title: 'Our work van', src: 'images/van.jpg' },
     { title: 'Unclogging a drain', src: 'images/working_on_sink.jpg' },
-    { title: 'Beautiful sink installation', src: 'images/sink.jpg' },
-    { title: 'Example of high quality plumbing within the walls', src: 'images/wall.jpg' },
+    { title: 'Sink installation', src: 'images/sink.jpg' },
+    { title: 'In wall plumbing', src: 'images/wall.jpg' },
     { title: 'Free standing tub and faucet installation', src: 'images/tub.jpg' },
+    { title: 'Intricate copper water system', src: 'images/copper_piping.jpg' },
+    { title: 'Garbage disposal', src: 'images/garbage_disposal.png' },
   ];
 </script>
 
@@ -71,8 +73,9 @@ Guaranteed Craftsmanship!`} />
       relationships with our customers. Our focus is providing the highest quality of work at a
       competitive price. Other companies may try to trap customers with marketing tricks showing
       untruthful prices, without disclosing their swindling fees such as shady contracts, dispatch
-      fees, and much more. When you call us, you can be certain there are no gimmicks. A master plumber 
-      and gasfitter licensed by The State of Virginia Board of Contractors will be completing your work.
+      fees, and much more. When you call us, you can be certain there are no gimmicks. A master
+      plumber and gasfitter licensed by The State of Virginia Board of Contractors will be
+      completing your work.
     </p>
     <h3 class="font-semibold text-xl underline text-center mt-16">What is your hourly cost?</h3>
     <ul class="text-center">
